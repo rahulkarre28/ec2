@@ -5,6 +5,7 @@ resource "aws_instance" "web" {
   hibernation = var.hibernation
   get_password_data = var.get_password_data
   disable_api_stop = var.disable_api_stop
+  subnet_id = var.snid
 
 
   tags = {
