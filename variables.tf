@@ -20,3 +20,6 @@ variable "get_password_data" {
 variable "ami" {
     type = string
 }
+variable "snid" {
+    type = string
+}
